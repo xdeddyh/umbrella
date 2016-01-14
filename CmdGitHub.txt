@@ -1,0 +1,11 @@
+
+
+Berikut ini adalah command-command yang bisa digunakan dalam github :
+
+1. git add filename (untuk menambahkan file yang mengalami perubahan)
+2. git push	(untuk memastikan file disimpan ke server git)
+3. git pull	(untuk menarik file dr server ke local pc)
+4. git status	(untuk menampilkan status git)
+5. git init	(
+6. git commit -m filename (
+
