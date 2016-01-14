@@ -9,3 +9,18 @@ Berikut ini adalah command-command yang bisa digunakan dalam github :
 5. git init	(
 6. git commit -m filename (
 
+git config --global user.name "deddy hartanto"
+git config --global user.email "xdeddyh@gmail.com"
+
+git clone https://github.com/YOUR-USERNAME/project.git
+git clone https://github.com/xdeddyh/umbrella
+
+
+
+D:\Projects\Gits\Java\umbrella-workshop
+
+
+
+git clone https://github.com/GDP-ADMIN/umbrella.git
+
+
