@@ -3,11 +3,12 @@
 Berikut ini adalah command-command yang bisa digunakan dalam github :
 
 1. git add filename (untuk menambahkan file yang mengalami perubahan)
+   git commit -m filename (menambahkan file ke tahapan commit)
 2. git push	(untuk memastikan file disimpan ke server git)
 3. git pull	(untuk menarik file dr server ke local pc)
 4. git status	(untuk menampilkan status git)
 5. git init	(
-6. git commit -m filename (
+6. 
 
 git config --global user.name "deddy hartanto"
 git config --global user.email "xdeddyh@gmail.com"
@@ -51,7 +52,7 @@ bower install
 
     Install package dependencies
 
-npm install
+
 
     Run for development mode
 
