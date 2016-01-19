@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 
 ini dimasukan oleh deddy01
+=======
+diedit sama vanie loh
+>>>>>>> origin/master
