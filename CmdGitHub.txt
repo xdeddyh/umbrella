@@ -1,0 +1,105 @@
+
+
+Berikut ini adalah command-command yang bisa digunakan dalam github :
+
+1. git add filename (untuk menambahkan file yang mengalami perubahan)
+   git add --all (untuk menambahkan semua file yg berubah)
+
+   git commit -m filename (menambahkan file ke tahapan commit)
+   git commit -m --all (commit semua file yang hendak dicommit)
+2. git push	(untuk memastikan file disimpan ke server git)
+3. git pull	(untuk menarik file dr server ke local pc)
+4. git status	(untuk menampilkan status git)
+5. git init	(
+6. 
+
+git config --global user.name "deddy hartanto"
+git config --global user.email "xdeddyh@gmail.com"
+
+git clone https://github.com/YOUR-USERNAME/project.git
+git clone https://github.com/xdeddyh/umbrella
+
+
+
+D:\Projects\Gits\Java\umbrella-workshop
+
+
+
+git clone https://github.com/GDP-ADMIN/umbrella.git
+
+
+-----------------------------------------------------------
+menjalankan project umbrella
+
+
+How to build
+
+    Create Environment Variable UMBRELLA_ENV, and set value development
+
+    Install NodeJS (You can install manually or use chocolatey or homebrew)
+
+For Developer using Windows need some dependencies before install nodejs:
+1. Latest version of Visual Studio (latest version of Visual Studio 2015 or Visual Studio Community)
+2. git
+3. phyton (version 2.7.x)
+
+Please checkout this link for more information.
+
+    Install bower and gulp
+
+npm install -g bower gulp
+
+    Install bower dependencies
+
+bower install
+
+    Install package dependencies
+
+
+
+    Run for development mode
+
+gulp serve-dev
+
+    Run for production mode
+
+gulp serve-build
+
+    To run test independently
+
+gulp test
+
+    To run selenium test (e2e test)
+
+gulp e2e (for all files)
+or
+gulp e2e --file=[file name]
+or
+gulp e2e --folder=[folder name]
+or
+gulp e2e --folder=[folder name] --file=[file name]
+
+Example:
+gulp e2e
+gulp e2e --file=first-report
+gulp e2e --folder=master/city
+gulp e2e --folder=first-report --file=advanced-search
+
+    To start analyzer JSHint and JSCS
+
+gulp vet
+
+    To update dependencies in index.html
+
+gulp wiredep
+
+    To bump the version
+
+gulp bump --type=[type]
+or
+gulp bump --version=[version]
+
+type = ['major', 'minor', 'patch' 'prerelease']
+default type = 'patch'
+
+version = use semantic version (ex: 1.0.0)

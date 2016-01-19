@@ -1,0 +1,9 @@
+
+menjadi biasa krn biasa
+<<<<<<< HEAD
+dan kita coba lagi
+=======
+
+
+diedit by vanie
+>>>>>>> origin/master
